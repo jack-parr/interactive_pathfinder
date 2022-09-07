@@ -7,6 +7,7 @@ green = (0, 255, 0)
 blue = (0, 0, 255)
 light_blue = (0, 255, 255)
 orange = (255, 165, 0)
+pink = (255, 192, 203)
 colours = [white, black]
 
 dis_width, dis_height = 400, 300  # setting up game window.
