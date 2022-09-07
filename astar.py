@@ -56,13 +56,13 @@ def astar_main(maze_array):
             running = False
 
         if maze_array[selected_node] != 2:
-            pygame.draw.rect(config.dis, config.light_blue,
+            pygame.draw.rect(config.dis, config.pink,
                              [(selected_node[1] * config.square_size) + config.square_size / 2,
                               (selected_node[0] * config.square_size) + config.square_size / 2, config.square_size / 2,
                               config.square_size / 2])
             pygame.display.update()
             time.sleep(0.05)
-            pygame.draw.rect(config.dis, config.light_blue,
+            pygame.draw.rect(config.dis, config.pink,
                              [selected_node[1] * config.square_size, selected_node[0] * config.square_size,
                               config.square_size, config.square_size])
             pygame.display.update()
